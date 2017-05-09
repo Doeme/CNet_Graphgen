@@ -1,0 +1,4 @@
+traceroute -q 3 LAUS-host.group11
+traceroute to LAUS-host.group11 (11.107.0.2), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.016 ms  0.005 ms  0.005 ms
+ 2  LAUS-host.group11 (11.107.0.2)  0.017 ms  0.006 ms  0.006 ms

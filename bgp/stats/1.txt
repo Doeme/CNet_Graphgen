@@ -1,0 +1,17 @@
+traceroute to WINT-host.group1 (1.102.0.2), 30 hops max, 60 byte packets
+ 1  WINT-host.group11 (11.102.0.2)  0.026 ms
+ 2  STGA-wint.group11 (11.0.4.2)  0.025 ms
+ 3  LUGA-stag.group11 (11.0.8.2)  0.027 ms
+ 4  179.24.10.14 (179.24.10.14)  3.074 ms
+ 5  ZURI-olte.group14 (14.0.2.2)  3.678 ms
+ 6  LUCE-zuri.group14 (14.0.5.2)  2.070 ms
+ 7  LUGA-gene.group14 (14.0.14.2)  2.946 ms
+ 8  179.24.43.16 (179.24.43.16)  4.894 ms
+ 9  OLTE-wint.group16 (16.0.1.1)  4.676 ms
+10  LAUS-olte.group16 (16.0.7.2)  4.842 ms
+11  180.81.0.3 (180.81.0.3)  14.755 ms
+12  OLTE-laus.group3 (3.0.7.1)  14.480 ms
+13  GENE-bern.group1 (1.0.12.2)  15.159 ms
+14  BERN-zuri.group1 (1.0.6.2)  15.136 ms
+15  180.81.0.1 (180.81.0.1)  15.319 ms
+16  WINT-host.group1 (1.102.0.2)  15.296 ms

@@ -1,0 +1,7 @@
+traceroute -q 5 11.103.0.1
+/root/go_to.sh STGA-host "bash -c \"traceroute -q 5 11.103.0.1\""
+traceroute to 11.103.0.1 (11.103.0.1), 30 hops max, 60 byte packets
+ 1  STGA-host.group11 (11.104.0.2)  0.021 ms  0.005 ms  0.004 ms  0.004 ms  0.004 ms
+ 2  WINT-stga.group11 (11.0.4.1)  0.013 ms  0.007 ms  0.007 ms  0.006 ms  0.007 ms
+ 3  ZURI-WINT.group11 (11.0.3.2)  0.019 ms  0.010 ms  0.009 ms  0.009 ms  0.009 ms
+ 4  HOST-zuri.group11 (11.103.0.1)  0.027 ms  0.026 ms  0.011 ms  0.010 ms  0.010 ms

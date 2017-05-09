@@ -1,0 +1,5 @@
+traceroute to WINT-host.group12 (12.102.0.2), 30 hops max, 60 byte packets
+ 1  WINT-host.group11 (11.102.0.2)  0.020 ms
+ 2  STGA-wint.group11 (11.0.4.2)  0.020 ms
+ 3  STGA-luga.group12 (12.0.8.1)  5.088 ms
+ 4  WINT-host.group12 (12.102.0.2)  7.733 ms

@@ -1,0 +1,6 @@
+traceroute to ZURI-host.group26 (26.103.0.2), 30 hops max, 60 byte packets
+ 1  ZURI-host.group11 (11.103.0.2)  0.020 ms
+ 2  OLTE-zuri.group11 (11.0.2.1)  0.019 ms
+ 3  180.82.0.26 (180.82.0.26)  3.173 ms
+ 4  OLTE-laus.group26 (26.0.7.1)  2.396 ms
+ 5  ZURI-host.group26 (26.103.0.2)  2.571 ms

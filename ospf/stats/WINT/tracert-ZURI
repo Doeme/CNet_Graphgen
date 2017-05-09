@@ -1,0 +1,6 @@
+traceroute -q 5 11.103.0.1
+/root/go_to.sh WINT-host "bash -c \"traceroute -q 5 11.103.0.1\""
+traceroute to 11.103.0.1 (11.103.0.1), 30 hops max, 60 byte packets
+ 1  WINT-host.group11 (11.102.0.2)  0.031 ms  0.006 ms  0.006 ms  0.006 ms  0.006 ms
+ 2  ZURI-WINT.group11 (11.0.3.2)  0.024 ms  0.010 ms  0.009 ms  0.009 ms  0.008 ms
+ 3  HOST-zuri.group11 (11.103.0.1)  0.022 ms  0.010 ms  0.010 ms  0.010 ms  0.010 ms

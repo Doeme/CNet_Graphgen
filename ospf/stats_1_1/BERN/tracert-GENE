@@ -1,0 +1,6 @@
+traceroute -q 5 11.108.0.1
+/root/go_to.sh BERN-host "bash -c \"traceroute -q 5 11.108.0.1\""
+traceroute to 11.108.0.1 (11.108.0.1), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.049 ms  0.010 ms  0.006 ms  0.006 ms  0.007 ms
+ 2  GENE-bern.group11 (11.0.12.2)  0.032 ms  0.012 ms  0.011 ms  0.010 ms  0.010 ms
+ 3  HOST-gene.group11 (11.108.0.1)  0.026 ms  0.013 ms  0.012 ms  0.013 ms  0.014 ms

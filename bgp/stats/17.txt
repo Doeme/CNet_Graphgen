@@ -1,0 +1,6 @@
+traceroute to WINT-host.group17 (17.102.0.2), 30 hops max, 60 byte packets
+ 1  WINT-host.group11 (11.102.0.2)  0.032 ms
+ 2  OLTE-wint.group11 (11.0.1.1)  0.043 ms
+ 3  LAUS-olte.group17 (17.0.7.2)  7.983 ms
+ 4  OLTE-wint.group17 (17.0.1.1)  7.913 ms
+ 5  WINT-host.group17 (17.102.0.2)  6.317 ms

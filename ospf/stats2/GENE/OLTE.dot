@@ -1,0 +1,18 @@
+graph G{
+	OLTE [pos="0,0!"];
+	WINT [pos="5,0!"];
+	ZURI [pos="3,-1!"];
+	STGA [pos="6,-1.25!"];
+	LUCE [pos="3,-3!"];
+	BERN [pos="1,-3.5!"];
+	LAUS [pos="-1,-4.5!"];
+	GENE [pos="-1.5,-6!"];
+	LUGA [pos="3,-5.75!"];
+GENE--GENE;
+BERN--GENE;
+LAUS--GENE;
+OLTE--ZURI;
+ZURI--BERN;
+OLTE--OLTE;
+OLTE--LAUS;
+}

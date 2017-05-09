@@ -1,0 +1,5 @@
+traceroute -q 3 LUGA-host.group11
+traceroute to LUGA-host.group11 (11.109.0.2), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.014 ms  0.004 ms  0.003 ms
+ 2  GENE-bern.group11 (11.0.12.2)  0.013 ms LUCE-bern.group11 (11.0.9.1)  0.011 ms GENE-bern.group11 (11.0.12.2)  0.006 ms
+ 3  LUGA-host.group11 (11.109.0.2)  0.015 ms  0.011 ms  0.007 ms

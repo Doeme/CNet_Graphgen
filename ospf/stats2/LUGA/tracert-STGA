@@ -1,0 +1,5 @@
+traceroute -q 3 11.104.0.1
+traceroute to 11.104.0.1 (11.104.0.1), 30 hops max, 60 byte packets
+ 1  LUGA-host.group11 (11.109.0.2)  0.023 ms  0.007 ms  0.005 ms
+ 2  STGA-luga.group11 (11.0.8.1)  0.023 ms  0.009 ms  0.007 ms
+ 3  HOST-stga.group11 (11.104.0.1)  0.022 ms  0.010 ms  0.009 ms

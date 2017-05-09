@@ -1,0 +1,7 @@
+traceroute to ZURI-host.group24 (24.103.0.2), 30 hops max, 60 byte packets
+ 1  ZURI-host.group11 (11.103.0.2)  0.024 ms
+ 2  OLTE-zuri.group11 (11.0.2.1)  0.024 ms
+ 3  LAUS-gene.group24 (24.0.13.1)  4.551 ms
+ 4  OLTE-zuri.group24 (24.0.2.1)  4.113 ms
+ 5  WINT-stga.group24 (24.0.4.1)  3.783 ms
+ 6  ZURI-host.group24 (24.103.0.2)  3.422 ms

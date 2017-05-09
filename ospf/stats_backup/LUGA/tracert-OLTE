@@ -1,0 +1,6 @@
+traceroute -q 3 OLTE-host.group11
+traceroute to OLTE-host.group11 (11.101.0.2), 30 hops max, 60 byte packets
+ 1  LUGA-host.group11 (11.109.0.2)  0.014 ms  0.005 ms  0.004 ms
+ 2  GENE-luga.group11 (11.0.14.1)  0.016 ms LUCE-luga.group11 (11.0.10.1)  0.011 ms STGA-luga.group11 (11.0.8.1)  0.015 ms
+ 3  LAUS-gene.group11 (11.0.13.1)  0.017 ms ZURI-luce.group11 (11.0.5.1)  0.015 ms WINT-stga.group11 (11.0.4.1)  0.016 ms
+ 4  OLTE-host.group11 (11.101.0.2)  0.016 ms  0.012 ms  0.011 ms

@@ -1,0 +1,18 @@
+traceroute to ZURI-host.group7 (7.103.0.2), 30 hops max, 60 byte packets
+ 1  ZURI-host.group11 (11.103.0.2)  0.022 ms
+ 2  WINT-olte.group11 (11.0.1.2)  0.024 ms
+ 3  WINT-stga.group1 (1.0.4.1)  6.577 ms
+ 4  OLTE-wint.group1 (1.0.1.1)  6.569 ms
+ 5  LAUS-olte.group1 (1.0.7.2)  6.655 ms
+ 6  GENE-luga.group1 (1.0.14.1)  7.405 ms
+ 7  179.24.2.3 (179.24.2.3)  7.476 ms
+ 8  LAUS-olte.group3 (3.0.7.2)  8.252 ms
+ 9  GENE-laus.group3 (3.0.13.2)  8.727 ms
+10  179.24.24.5 (179.24.24.5)  9.652 ms
+11  WINT-olte.group5 (5.0.1.2)  18.025 ms
+12  ZURI-WINT.group5 (5.0.3.2)  14.949 ms
+13  BERN-zuri.group5 (5.0.6.2)  18.593 ms
+14  GENE-laus.group5 (5.0.13.2)  18.259 ms
+15  179.24.29.7 (179.24.29.7)  18.573 ms
+16  WINT-olte.group7 (7.0.1.2)  17.676 ms
+17  ZURI-host.group7 (7.103.0.2)  19.449 ms

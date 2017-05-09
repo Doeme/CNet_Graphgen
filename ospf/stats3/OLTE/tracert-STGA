@@ -1,0 +1,6 @@
+traceroute -q 5 11.104.0.1
+traceroute to 11.104.0.1 (11.104.0.1), 30 hops max, 60 byte packets
+ 1  OLTE-host.group11 (11.101.0.2)  0.033 ms  0.006 ms  0.005 ms  0.006 ms  0.006 ms
+ 2  WINT-olte.group11 (11.0.1.2)  0.025 ms  0.009 ms  0.008 ms  0.008 ms  0.007 ms
+ 3  STGA-wint.group11 (11.0.4.2)  0.026 ms  0.012 ms  0.010 ms  0.010 ms  0.011 ms
+ 4  HOST-stga.group11 (11.104.0.1)  0.024 ms  0.057 ms  0.016 ms  0.015 ms  0.015 ms

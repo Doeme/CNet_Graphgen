@@ -1,0 +1,6 @@
+traceroute -q 3 11.103.0.1
+traceroute to 11.103.0.1 (11.103.0.1), 30 hops max, 60 byte packets
+ 1  LAUS-host.group11 (11.107.0.2)  0.014 ms  0.005 ms  0.003 ms
+ 2  GENE-laus.group11 (11.0.13.2)  0.008 ms OLTE-laus.group11 (11.0.7.1)  0.008 ms GENE-laus.group11 (11.0.13.2)  0.006 ms
+ 3  ZURI-olte.group11 (11.0.2.2)  0.014 ms BERN-gene.group11 (11.0.12.1)  0.011 ms ZURI-olte.group11 (11.0.2.2)  0.008 ms
+ 4  ZURI-olte.group11 (11.0.2.2)  0.009 ms HOST-zuri.group11 (11.103.0.1)  0.015 ms ZURI-bern.group11 (11.0.6.1)  0.011 ms

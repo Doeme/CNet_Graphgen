@@ -1,0 +1,566 @@
+\clearpage
+\subsubsection{BERN - GENE}
+\begin{lstlisting}
+traceroute -q 5 11.108.0.1
+/root/go_to.sh BERN-host "bash -c \"traceroute -q 5 11.108.0.1\""
+traceroute to 11.108.0.1 (11.108.0.1), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.049 ms  0.010 ms  0.006 ms  0.006 ms  0.007 ms
+ 2  GENE-bern.group11 (11.0.12.2)  0.032 ms  0.012 ms  0.011 ms  0.010 ms  0.010 ms
+ 3  HOST-gene.group11 (11.108.0.1)  0.026 ms  0.013 ms  0.012 ms  0.013 ms  0.014 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/BERN/GENE.pdf}
+\caption{The traceroute from BERN to GENE}
+\end{figure}
+\clearpage
+\subsubsection{BERN - LAUS}
+\begin{lstlisting}
+traceroute -q 5 11.107.0.1
+/root/go_to.sh BERN-host "bash -c \"traceroute -q 5 11.107.0.1\""
+traceroute to 11.107.0.1 (11.107.0.1), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.026 ms  0.006 ms  0.005 ms  0.006 ms  0.005 ms
+ 2  LAUS-bern.group11 (11.0.11.2)  0.022 ms  0.009 ms  0.007 ms  0.007 ms  0.008 ms
+ 3  HOST-laus.group11 (11.107.0.1)  0.020 ms  0.010 ms  0.009 ms  0.009 ms  0.010 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/BERN/LAUS.pdf}
+\caption{The traceroute from BERN to LAUS}
+\end{figure}
+\clearpage
+\subsubsection{BERN - LUCE}
+\begin{lstlisting}
+traceroute -q 5 11.105.0.1
+/root/go_to.sh BERN-host "bash -c \"traceroute -q 5 11.105.0.1\""
+traceroute to 11.105.0.1 (11.105.0.1), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.026 ms  0.006 ms  0.005 ms  0.004 ms  0.004 ms
+ 2  LUCE-bern.group11 (11.0.9.1)  0.024 ms  0.009 ms  0.008 ms  0.008 ms  0.008 ms
+ 3  HOST-luce.group11 (11.105.0.1)  0.020 ms  0.010 ms  0.010 ms  0.009 ms  0.010 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/BERN/LUCE.pdf}
+\caption{The traceroute from BERN to LUCE}
+\end{figure}
+\clearpage
+\subsubsection{BERN - LUGA}
+\begin{lstlisting}
+traceroute -q 5 11.109.0.1
+/root/go_to.sh BERN-host "bash -c \"traceroute -q 5 11.109.0.1\""
+traceroute to 11.109.0.1 (11.109.0.1), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.029 ms  0.008 ms  0.006 ms  0.006 ms  0.006 ms
+ 2  LUCE-bern.group11 (11.0.9.1)  0.025 ms GENE-bern.group11 (11.0.12.2)  0.023 ms LUCE-bern.group11 (11.0.9.1)  0.011 ms GENE-bern.group11 (11.0.12.2)  0.010 ms LUCE-bern.group11 (11.0.9.1)  0.116 ms
+ 3  LUGA-gene.group11 (11.0.14.2)  0.068 ms  0.015 ms  0.012 ms  0.012 ms  0.013 ms
+ 4  HOST-luga.group11 (11.109.0.1)  0.027 ms  0.037 ms  0.017 ms  0.013 ms  0.013 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/BERN/LUGA.pdf}
+\caption{The traceroute from BERN to LUGA}
+\end{figure}
+\clearpage
+\subsubsection{BERN - OLTE}
+\begin{lstlisting}
+traceroute -q 5 11.101.0.1
+/root/go_to.sh BERN-host "bash -c \"traceroute -q 5 11.101.0.1\""
+traceroute to 11.101.0.1 (11.101.0.1), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.023 ms  0.007 ms  0.005 ms  0.486 ms  0.011 ms
+ 2  ZURI-bern.group11 (11.0.6.1)  0.019 ms LAUS-bern.group11 (11.0.11.2)  0.020 ms ZURI-bern.group11 (11.0.6.1)  0.008 ms LAUS-bern.group11 (11.0.11.2)  0.007 ms ZURI-bern.group11 (11.0.6.1)  0.008 ms
+ 3  OLTE-laus.group11 (11.0.7.1)  0.027 ms  0.012 ms  0.009 ms  0.010 ms  0.010 ms
+ 4  HOST-olte.group11 (11.101.0.1)  0.022 ms  0.030 ms  0.014 ms  0.012 ms  0.011 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/BERN/OLTE.pdf}
+\caption{The traceroute from BERN to OLTE}
+\end{figure}
+\clearpage
+\subsubsection{BERN - STGA}
+\begin{lstlisting}
+traceroute -q 5 11.104.0.1
+/root/go_to.sh BERN-host "bash -c \"traceroute -q 5 11.104.0.1\""
+traceroute to 11.104.0.1 (11.104.0.1), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.029 ms  0.009 ms  0.007 ms  0.006 ms  0.005 ms
+ 2  GENE-bern.group11 (11.0.12.2)  0.018 ms LUCE-bern.group11 (11.0.9.1)  0.018 ms ZURI-bern.group11 (11.0.6.1)  0.016 ms GENE-bern.group11 (11.0.12.2)  0.010 ms LUCE-bern.group11 (11.0.9.1)  0.009 ms
+ 3  WINT-zuri.group11 (11.0.3.1)  0.029 ms LUGA-luce.group11 (11.0.10.2)  0.023 ms  0.012 ms WINT-zuri.group11 (11.0.3.1)  0.013 ms LUGA-luce.group11 (11.0.10.2)  0.012 ms
+ 4  STGA-luga.group11 (11.0.8.1)  0.033 ms  0.039 ms  0.021 ms  0.016 ms  0.017 ms
+ 5  HOST-stga.group11 (11.104.0.1)  0.032 ms  0.021 ms  0.017 ms  0.017 ms  0.017 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/BERN/STGA.pdf}
+\caption{The traceroute from BERN to STGA}
+\end{figure}
+\clearpage
+\subsubsection{BERN - WINT}
+\begin{lstlisting}
+traceroute -q 5 11.102.0.1
+/root/go_to.sh BERN-host "bash -c \"traceroute -q 5 11.102.0.1\""
+traceroute to 11.102.0.1 (11.102.0.1), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.023 ms  0.006 ms  0.005 ms  0.004 ms  0.004 ms
+ 2  ZURI-bern.group11 (11.0.6.1)  0.015 ms  0.007 ms  0.007 ms  0.007 ms  0.007 ms
+ 3  WINT-zuri.group11 (11.0.3.1)  0.018 ms  0.010 ms  0.009 ms  0.009 ms  0.010 ms
+ 4  HOST-wint.group11 (11.102.0.1)  0.022 ms  0.029 ms  0.013 ms  0.011 ms  0.011 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/BERN/WINT.pdf}
+\caption{The traceroute from BERN to WINT}
+\end{figure}
+\clearpage
+\subsubsection{BERN - ZURI}
+\begin{lstlisting}
+traceroute -q 5 11.103.0.1
+/root/go_to.sh BERN-host "bash -c \"traceroute -q 5 11.103.0.1\""
+traceroute to 11.103.0.1 (11.103.0.1), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.013 ms  0.010 ms  0.005 ms  0.005 ms  0.004 ms
+ 2  ZURI-bern.group11 (11.0.6.1)  0.015 ms  0.007 ms  0.006 ms  0.006 ms  0.006 ms
+ 3  HOST-zuri.group11 (11.103.0.1)  0.019 ms  0.008 ms  0.007 ms  0.008 ms  0.007 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/BERN/ZURI.pdf}
+\caption{The traceroute from BERN to ZURI}
+\end{figure}
+\clearpage
+\subsubsection{GENE - LAUS}
+\begin{lstlisting}
+traceroute -q 5 11.107.0.1
+/root/go_to.sh GENE-host "bash -c \"traceroute -q 5 11.107.0.1\""
+traceroute to 11.107.0.1 (11.107.0.1), 30 hops max, 60 byte packets
+ 1  GENE-host.group11 (11.108.0.2)  0.031 ms  0.007 ms  0.005 ms  0.004 ms  0.004 ms
+ 2  LAUS-gene.group11 (11.0.13.1)  0.020 ms  0.008 ms  0.008 ms  0.008 ms  0.007 ms
+ 3  HOST-laus.group11 (11.107.0.1)  0.016 ms  0.009 ms  0.009 ms  0.016 ms  0.009 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/GENE/LAUS.pdf}
+\caption{The traceroute from GENE to LAUS}
+\end{figure}
+\clearpage
+\subsubsection{GENE - LUCE}
+\begin{lstlisting}
+traceroute -q 5 11.105.0.1
+/root/go_to.sh GENE-host "bash -c \"traceroute -q 5 11.105.0.1\""
+traceroute to 11.105.0.1 (11.105.0.1), 30 hops max, 60 byte packets
+ 1  GENE-host.group11 (11.108.0.2)  0.043 ms  0.014 ms  0.009 ms  0.005 ms  0.005 ms
+ 2  LUGA-gene.group11 (11.0.14.2)  0.025 ms  0.008 ms  0.008 ms  0.008 ms  0.007 ms
+ 3  LUCE-luga.group11 (11.0.10.1)  0.028 ms  0.012 ms  0.011 ms  0.010 ms  0.011 ms
+ 4  HOST-luce.group11 (11.105.0.1)  0.022 ms  0.032 ms  0.015 ms  0.013 ms  0.013 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/GENE/LUCE.pdf}
+\caption{The traceroute from GENE to LUCE}
+\end{figure}
+\clearpage
+\subsubsection{GENE - LUGA}
+\begin{lstlisting}
+traceroute -q 5 11.109.0.1
+/root/go_to.sh GENE-host "bash -c \"traceroute -q 5 11.109.0.1\""
+traceroute to 11.109.0.1 (11.109.0.1), 30 hops max, 60 byte packets
+ 1  GENE-host.group11 (11.108.0.2)  0.021 ms  0.005 ms  0.005 ms  0.004 ms  0.004 ms
+ 2  LUGA-gene.group11 (11.0.14.2)  0.014 ms  0.008 ms  0.007 ms  0.006 ms  0.006 ms
+ 3  HOST-luga.group11 (11.109.0.1)  0.018 ms  0.009 ms  0.008 ms  0.008 ms  0.008 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/GENE/LUGA.pdf}
+\caption{The traceroute from GENE to LUGA}
+\end{figure}
+\clearpage
+\subsubsection{GENE - OLTE}
+\begin{lstlisting}
+traceroute -q 5 11.101.0.1
+/root/go_to.sh GENE-host "bash -c \"traceroute -q 5 11.101.0.1\""
+traceroute to 11.101.0.1 (11.101.0.1), 30 hops max, 60 byte packets
+ 1  GENE-host.group11 (11.108.0.2)  0.019 ms  0.005 ms  0.004 ms  0.003 ms  0.004 ms
+ 2  LAUS-gene.group11 (11.0.13.1)  0.017 ms  0.007 ms  0.006 ms  0.006 ms  0.006 ms
+ 3  OLTE-laus.group11 (11.0.7.1)  0.023 ms  0.008 ms  0.008 ms  0.008 ms  0.008 ms
+ 4  HOST-olte.group11 (11.101.0.1)  0.020 ms  0.024 ms  0.012 ms  0.010 ms  0.009 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/GENE/OLTE.pdf}
+\caption{The traceroute from GENE to OLTE}
+\end{figure}
+\clearpage
+\subsubsection{GENE - STGA}
+\begin{lstlisting}
+traceroute -q 5 11.104.0.1
+/root/go_to.sh GENE-host "bash -c \"traceroute -q 5 11.104.0.1\""
+traceroute to 11.104.0.1 (11.104.0.1), 30 hops max, 60 byte packets
+ 1  GENE-host.group11 (11.108.0.2)  0.017 ms  0.005 ms  0.003 ms  0.004 ms  0.004 ms
+ 2  LUGA-gene.group11 (11.0.14.2)  0.012 ms  0.006 ms  0.006 ms  0.005 ms  0.005 ms
+ 3  STGA-luga.group11 (11.0.8.1)  0.020 ms  0.008 ms  0.008 ms  0.007 ms  0.008 ms
+ 4  HOST-stga.group11 (11.104.0.1)  0.017 ms  0.022 ms  0.010 ms  0.009 ms  0.008 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/GENE/STGA.pdf}
+\caption{The traceroute from GENE to STGA}
+\end{figure}
+\clearpage
+\subsubsection{GENE - WINT}
+\begin{lstlisting}
+traceroute -q 5 11.102.0.1
+/root/go_to.sh GENE-host "bash -c \"traceroute -q 5 11.102.0.1\""
+traceroute to 11.102.0.1 (11.102.0.1), 30 hops max, 60 byte packets
+ 1  GENE-host.group11 (11.108.0.2)  0.017 ms  0.005 ms  0.004 ms  0.004 ms  0.004 ms
+ 2  BERN-gene.group11 (11.0.12.1)  0.013 ms LUGA-gene.group11 (11.0.14.2)  0.008 ms LAUS-gene.group11 (11.0.13.1)  0.011 ms BERN-gene.group11 (11.0.12.1)  0.007 ms LUGA-gene.group11 (11.0.14.2)  0.006 ms
+ 3  OLTE-laus.group11 (11.0.7.1)  0.013 ms ZURI-bern.group11 (11.0.6.1)  0.017 ms STGA-luga.group11 (11.0.8.1)  0.012 ms OLTE-laus.group11 (11.0.7.1)  0.007 ms ZURI-bern.group11 (11.0.6.1)  0.008 ms
+ 4  WINT-zuri.group11 (11.0.3.1)  0.025 ms WINT-olte.group11 (11.0.1.2)  0.029 ms WINT-stga.group11 (11.0.4.1)  0.023 ms WINT-zuri.group11 (11.0.3.1)  0.012 ms WINT-olte.group11 (11.0.1.2)  0.011 ms
+ 5  HOST-wint.group11 (11.102.0.1)  0.023 ms  0.011 ms  0.012 ms  0.011 ms  0.010 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/GENE/WINT.pdf}
+\caption{The traceroute from GENE to WINT}
+\end{figure}
+\clearpage
+\subsubsection{GENE - ZURI}
+\begin{lstlisting}
+traceroute -q 5 11.103.0.1
+/root/go_to.sh GENE-host "bash -c \"traceroute -q 5 11.103.0.1\""
+traceroute to 11.103.0.1 (11.103.0.1), 30 hops max, 60 byte packets
+ 1  GENE-host.group11 (11.108.0.2)  0.023 ms  0.007 ms  0.005 ms  0.005 ms  0.005 ms
+ 2  BERN-gene.group11 (11.0.12.1)  0.013 ms  0.009 ms  0.007 ms  0.008 ms  0.007 ms
+ 3  ZURI-bern.group11 (11.0.6.1)  0.018 ms  0.011 ms  0.011 ms  0.010 ms  0.011 ms
+ 4  HOST-zuri.group11 (11.103.0.1)  0.023 ms  0.029 ms  0.014 ms  0.012 ms  0.011 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/GENE/ZURI.pdf}
+\caption{The traceroute from GENE to ZURI}
+\end{figure}
+\clearpage
+\subsubsection{LAUS - LUCE}
+\begin{lstlisting}
+traceroute -q 5 11.105.0.1
+/root/go_to.sh LAUS-host "bash -c \"traceroute -q 5 11.105.0.1\""
+traceroute to 11.105.0.1 (11.105.0.1), 30 hops max, 60 byte packets
+ 1  LAUS-host.group11 (11.107.0.2)  0.032 ms  0.005 ms  0.004 ms  0.004 ms  0.005 ms
+ 2  BERN-laus.group11 (11.0.11.1)  0.022 ms  0.008 ms  0.008 ms  0.007 ms  0.006 ms
+ 3  LUCE-bern.group11 (11.0.9.1)  0.025 ms  0.011 ms  0.010 ms  0.009 ms  0.010 ms
+ 4  HOST-luce.group11 (11.105.0.1)  0.021 ms  0.055 ms  0.019 ms  0.017 ms  0.015 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LAUS/LUCE.pdf}
+\caption{The traceroute from LAUS to LUCE}
+\end{figure}
+\clearpage
+\subsubsection{LAUS - LUGA}
+\begin{lstlisting}
+traceroute -q 5 11.109.0.1
+/root/go_to.sh LAUS-host "bash -c \"traceroute -q 5 11.109.0.1\""
+traceroute to 11.109.0.1 (11.109.0.1), 30 hops max, 60 byte packets
+ 1  LAUS-host.group11 (11.107.0.2)  0.030 ms  0.007 ms  0.005 ms  0.005 ms  0.006 ms
+ 2  GENE-laus.group11 (11.0.13.2)  0.026 ms  0.009 ms  0.009 ms  0.009 ms  0.009 ms
+ 3  LUGA-gene.group11 (11.0.14.2)  0.030 ms  0.012 ms  0.012 ms  0.011 ms  0.012 ms
+ 4  HOST-luga.group11 (11.109.0.1)  0.026 ms  0.034 ms  0.014 ms  0.014 ms  0.013 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LAUS/LUGA.pdf}
+\caption{The traceroute from LAUS to LUGA}
+\end{figure}
+\clearpage
+\subsubsection{LAUS - OLTE}
+\begin{lstlisting}
+traceroute -q 5 11.101.0.1
+/root/go_to.sh LAUS-host "bash -c \"traceroute -q 5 11.101.0.1\""
+traceroute to 11.101.0.1 (11.101.0.1), 30 hops max, 60 byte packets
+ 1  LAUS-host.group11 (11.107.0.2)  0.020 ms  0.005 ms  0.004 ms  0.004 ms  0.005 ms
+ 2  OLTE-laus.group11 (11.0.7.1)  0.018 ms  0.007 ms  0.006 ms  0.007 ms  0.007 ms
+ 3  HOST-olte.group11 (11.101.0.1)  0.018 ms  0.008 ms  0.008 ms  0.008 ms  0.008 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LAUS/OLTE.pdf}
+\caption{The traceroute from LAUS to OLTE}
+\end{figure}
+\clearpage
+\subsubsection{LAUS - STGA}
+\begin{lstlisting}
+traceroute -q 5 11.104.0.1
+/root/go_to.sh LAUS-host "bash -c \"traceroute -q 5 11.104.0.1\""
+traceroute to 11.104.0.1 (11.104.0.1), 30 hops max, 60 byte packets
+ 1  LAUS-host.group11 (11.107.0.2)  0.020 ms  0.005 ms  0.004 ms  0.004 ms  0.004 ms
+ 2  GENE-laus.group11 (11.0.13.2)  0.014 ms OLTE-laus.group11 (11.0.7.1)  0.012 ms GENE-laus.group11 (11.0.13.2)  0.007 ms OLTE-laus.group11 (11.0.7.1)  0.024 ms GENE-laus.group11 (11.0.13.2)  0.007 ms
+ 3  WINT-olte.group11 (11.0.1.2)  0.021 ms LUGA-gene.group11 (11.0.14.2)  0.015 ms WINT-olte.group11 (11.0.1.2)  0.009 ms LUGA-gene.group11 (11.0.14.2)  0.009 ms WINT-olte.group11 (11.0.1.2)  0.009 ms
+ 4  STGA-luga.group11 (11.0.8.1)  0.024 ms  0.029 ms  0.013 ms  0.012 ms  0.010 ms
+ 5  HOST-stga.group11 (11.104.0.1)  0.023 ms  0.014 ms  0.013 ms  0.013 ms  0.013 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LAUS/STGA.pdf}
+\caption{The traceroute from LAUS to STGA}
+\end{figure}
+\clearpage
+\subsubsection{LAUS - WINT}
+\begin{lstlisting}
+traceroute -q 5 11.102.0.1
+/root/go_to.sh LAUS-host "bash -c \"traceroute -q 5 11.102.0.1\""
+traceroute to 11.102.0.1 (11.102.0.1), 30 hops max, 60 byte packets
+ 1  LAUS-host.group11 (11.107.0.2)  0.016 ms  0.005 ms  0.003 ms  0.003 ms  0.004 ms
+ 2  OLTE-laus.group11 (11.0.7.1)  0.010 ms  0.005 ms  0.005 ms  0.005 ms  0.005 ms
+ 3  WINT-olte.group11 (11.0.1.2)  0.013 ms  0.007 ms  0.008 ms  0.008 ms  0.008 ms
+ 4  HOST-wint.group11 (11.102.0.1)  0.020 ms  0.024 ms  0.009 ms  0.009 ms  0.008 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LAUS/WINT.pdf}
+\caption{The traceroute from LAUS to WINT}
+\end{figure}
+\clearpage
+\subsubsection{LAUS - ZURI}
+\begin{lstlisting}
+traceroute -q 5 11.103.0.1
+/root/go_to.sh LAUS-host "bash -c \"traceroute -q 5 11.103.0.1\""
+traceroute to 11.103.0.1 (11.103.0.1), 30 hops max, 60 byte packets
+ 1  LAUS-host.group11 (11.107.0.2)  0.015 ms  0.004 ms  0.003 ms  0.003 ms  0.004 ms
+ 2  OLTE-laus.group11 (11.0.7.1)  0.010 ms  0.005 ms  0.006 ms  0.005 ms  0.005 ms
+ 3  ZURI-olte.group11 (11.0.2.2)  0.015 ms  0.008 ms  0.007 ms  0.008 ms  0.007 ms
+ 4  HOST-zuri.group11 (11.103.0.1)  0.017 ms  0.021 ms  0.009 ms  0.009 ms  0.008 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LAUS/ZURI.pdf}
+\caption{The traceroute from LAUS to ZURI}
+\end{figure}
+\clearpage
+\subsubsection{LUCE - LUGA}
+\begin{lstlisting}
+traceroute -q 5 11.109.0.1
+/root/go_to.sh LUCE-host "bash -c \"traceroute -q 5 11.109.0.1\""
+traceroute to 11.109.0.1 (11.109.0.1), 30 hops max, 60 byte packets
+ 1  LUCE-host.group11 (11.105.0.2)  0.035 ms  0.008 ms  0.006 ms  0.006 ms  0.005 ms
+ 2  LUGA-luce.group11 (11.0.10.2)  0.022 ms  0.009 ms  0.008 ms  0.008 ms  0.008 ms
+ 3  HOST-luga.group11 (11.109.0.1)  0.020 ms  0.011 ms  0.010 ms  0.012 ms  0.010 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LUCE/LUGA.pdf}
+\caption{The traceroute from LUCE to LUGA}
+\end{figure}
+\clearpage
+\subsubsection{LUCE - OLTE}
+\begin{lstlisting}
+traceroute -q 5 11.101.0.1
+/root/go_to.sh LUCE-host "bash -c \"traceroute -q 5 11.101.0.1\""
+traceroute to 11.101.0.1 (11.101.0.1), 30 hops max, 60 byte packets
+ 1  LUCE-host.group11 (11.105.0.2)  0.034 ms  0.007 ms  0.006 ms  0.006 ms  0.006 ms
+ 2  ZURI-luce.group11 (11.0.5.1)  0.024 ms  0.010 ms  0.008 ms  0.008 ms  0.009 ms
+ 3  OLTE-zuri.group11 (11.0.2.1)  0.029 ms  0.012 ms  0.011 ms  0.011 ms  0.012 ms
+ 4  HOST-olte.group11 (11.101.0.1)  0.025 ms  0.031 ms  0.015 ms  0.013 ms  0.014 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LUCE/OLTE.pdf}
+\caption{The traceroute from LUCE to OLTE}
+\end{figure}
+\clearpage
+\subsubsection{LUCE - STGA}
+\begin{lstlisting}
+traceroute -q 5 11.104.0.1
+/root/go_to.sh LUCE-host "bash -c \"traceroute -q 5 11.104.0.1\""
+traceroute to 11.104.0.1 (11.104.0.1), 30 hops max, 60 byte packets
+ 1  LUCE-host.group11 (11.105.0.2)  0.036 ms  0.008 ms  0.007 ms  0.006 ms  0.006 ms
+ 2  LUGA-luce.group11 (11.0.10.2)  0.023 ms  0.009 ms  0.008 ms  0.008 ms  0.008 ms
+ 3  STGA-luga.group11 (11.0.8.1)  0.027 ms  0.013 ms  0.012 ms  0.011 ms  0.012 ms
+ 4  HOST-stga.group11 (11.104.0.1)  0.025 ms  0.035 ms  0.015 ms  0.013 ms  0.013 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LUCE/STGA.pdf}
+\caption{The traceroute from LUCE to STGA}
+\end{figure}
+\clearpage
+\subsubsection{LUCE - WINT}
+\begin{lstlisting}
+traceroute -q 5 11.102.0.1
+/root/go_to.sh LUCE-host "bash -c \"traceroute -q 5 11.102.0.1\""
+traceroute to 11.102.0.1 (11.102.0.1), 30 hops max, 60 byte packets
+ 1  LUCE-host.group11 (11.105.0.2)  0.026 ms  0.006 ms  0.005 ms  0.005 ms  0.005 ms
+ 2  ZURI-luce.group11 (11.0.5.1)  0.018 ms  0.008 ms  0.008 ms  0.007 ms  0.007 ms
+ 3  WINT-zuri.group11 (11.0.3.1)  0.024 ms  0.010 ms  0.009 ms  0.010 ms  0.005 ms
+ 4  HOST-wint.group11 (11.102.0.1)  0.028 ms  0.029 ms  0.013 ms  0.012 ms  0.011 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LUCE/WINT.pdf}
+\caption{The traceroute from LUCE to WINT}
+\end{figure}
+\clearpage
+\subsubsection{LUCE - ZURI}
+\begin{lstlisting}
+traceroute -q 5 11.103.0.1
+/root/go_to.sh LUCE-host "bash -c \"traceroute -q 5 11.103.0.1\""
+traceroute to 11.103.0.1 (11.103.0.1), 30 hops max, 60 byte packets
+ 1  LUCE-host.group11 (11.105.0.2)  0.019 ms  0.005 ms  0.004 ms  0.004 ms  0.004 ms
+ 2  ZURI-luce.group11 (11.0.5.1)  0.012 ms  0.007 ms  0.007 ms  0.007 ms  0.006 ms
+ 3  HOST-zuri.group11 (11.103.0.1)  0.018 ms  0.007 ms  0.007 ms  0.008 ms  0.007 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LUCE/ZURI.pdf}
+\caption{The traceroute from LUCE to ZURI}
+\end{figure}
+\clearpage
+\subsubsection{LUGA - OLTE}
+\begin{lstlisting}
+traceroute -q 5 11.101.0.1
+/root/go_to.sh LUGA-host "bash -c \"traceroute -q 5 11.101.0.1\""
+traceroute to 11.101.0.1 (11.101.0.1), 30 hops max, 60 byte packets
+ 1  LUGA-host.group11 (11.109.0.2)  0.034 ms  0.009 ms  0.008 ms  0.005 ms  0.005 ms
+ 2  LUCE-luga.group11 (11.0.10.1)  0.024 ms STGA-luga.group11 (11.0.8.1)  0.022 ms GENE-luga.group11 (11.0.14.1)  0.021 ms LUCE-luga.group11 (11.0.10.1)  0.011 ms STGA-luga.group11 (11.0.8.1)  0.009 ms
+ 3  LAUS-gene.group11 (11.0.13.1)  0.024 ms ZURI-luce.group11 (11.0.5.1)  0.025 ms WINT-stga.group11 (11.0.4.1)  0.025 ms LAUS-gene.group11 (11.0.13.1)  0.012 ms ZURI-luce.group11 (11.0.5.1)  0.012 ms
+ 4  OLTE-wint.group11 (11.0.1.1)  0.028 ms OLTE-zuri.group11 (11.0.2.1)  0.060 ms  0.039 ms OLTE-wint.group11 (11.0.1.1)  0.046 ms OLTE-laus.group11 (11.0.7.1)  0.029 ms
+ 5  HOST-olte.group11 (11.101.0.1)  0.033 ms  0.020 ms  0.020 ms  0.020 ms  0.019 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LUGA/OLTE.pdf}
+\caption{The traceroute from LUGA to OLTE}
+\end{figure}
+\clearpage
+\subsubsection{LUGA - STGA}
+\begin{lstlisting}
+traceroute -q 5 11.104.0.1
+/root/go_to.sh LUGA-host "bash -c \"traceroute -q 5 11.104.0.1\""
+traceroute to 11.104.0.1 (11.104.0.1), 30 hops max, 60 byte packets
+ 1  LUGA-host.group11 (11.109.0.2)  0.029 ms  0.006 ms  0.005 ms  0.004 ms  0.005 ms
+ 2  STGA-luga.group11 (11.0.8.1)  0.018 ms  0.009 ms  0.008 ms  0.008 ms  0.009 ms
+ 3  HOST-stga.group11 (11.104.0.1)  0.021 ms  0.010 ms  0.009 ms  0.010 ms  0.010 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LUGA/STGA.pdf}
+\caption{The traceroute from LUGA to STGA}
+\end{figure}
+\clearpage
+\subsubsection{LUGA - WINT}
+\begin{lstlisting}
+traceroute -q 5 11.102.0.1
+/root/go_to.sh LUGA-host "bash -c \"traceroute -q 5 11.102.0.1\""
+traceroute to 11.102.0.1 (11.102.0.1), 30 hops max, 60 byte packets
+ 1  LUGA-host.group11 (11.109.0.2)  0.022 ms  0.006 ms  0.005 ms  0.004 ms  0.004 ms
+ 2  STGA-luga.group11 (11.0.8.1)  0.014 ms  0.009 ms  0.007 ms  0.007 ms  0.006 ms
+ 3  WINT-stga.group11 (11.0.4.1)  0.021 ms  0.010 ms  0.009 ms  0.009 ms  0.009 ms
+ 4  HOST-wint.group11 (11.102.0.1)  0.023 ms  0.034 ms  0.011 ms  0.012 ms  0.010 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LUGA/WINT.pdf}
+\caption{The traceroute from LUGA to WINT}
+\end{figure}
+\clearpage
+\subsubsection{LUGA - ZURI}
+\begin{lstlisting}
+traceroute -q 5 11.103.0.1
+/root/go_to.sh LUGA-host "bash -c \"traceroute -q 5 11.103.0.1\""
+traceroute to 11.103.0.1 (11.103.0.1), 30 hops max, 60 byte packets
+ 1  LUGA-host.group11 (11.109.0.2)  0.080 ms  0.026 ms  0.007 ms  0.004 ms  0.004 ms
+ 2  LUCE-luga.group11 (11.0.10.1)  0.016 ms  0.007 ms  0.006 ms  0.006 ms  0.006 ms
+ 3  ZURI-luce.group11 (11.0.5.1)  0.018 ms  0.008 ms  0.008 ms  0.007 ms  0.008 ms
+ 4  HOST-zuri.group11 (11.103.0.1)  0.019 ms  0.024 ms  0.011 ms  0.009 ms  0.009 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/LUGA/ZURI.pdf}
+\caption{The traceroute from LUGA to ZURI}
+\end{figure}
+\clearpage
+\subsubsection{OLTE - STGA}
+\begin{lstlisting}
+traceroute -q 5 11.104.0.1
+/root/go_to.sh OLTE-host "bash -c \"traceroute -q 5 11.104.0.1\""
+traceroute to 11.104.0.1 (11.104.0.1), 30 hops max, 60 byte packets
+ 1  OLTE-host.group11 (11.101.0.2)  0.030 ms  0.006 ms  0.005 ms  0.005 ms  0.005 ms
+ 2  WINT-olte.group11 (11.0.1.2)  0.021 ms  0.008 ms  0.008 ms  0.007 ms  0.008 ms
+ 3  STGA-wint.group11 (11.0.4.2)  0.023 ms  0.010 ms  0.010 ms  0.009 ms  0.010 ms
+ 4  HOST-stga.group11 (11.104.0.1)  0.021 ms  0.056 ms  0.016 ms  0.015 ms  0.014 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/OLTE/STGA.pdf}
+\caption{The traceroute from OLTE to STGA}
+\end{figure}
+\clearpage
+\subsubsection{OLTE - WINT}
+\begin{lstlisting}
+traceroute -q 5 11.102.0.1
+/root/go_to.sh OLTE-host "bash -c \"traceroute -q 5 11.102.0.1\""
+traceroute to 11.102.0.1 (11.102.0.1), 30 hops max, 60 byte packets
+ 1  OLTE-host.group11 (11.101.0.2)  0.028 ms  0.006 ms  0.005 ms  0.006 ms  0.005 ms
+ 2  WINT-olte.group11 (11.0.1.2)  0.020 ms  0.009 ms  0.009 ms  0.009 ms  0.008 ms
+ 3  HOST-wint.group11 (11.102.0.1)  0.043 ms  0.015 ms  0.010 ms  0.011 ms  0.011 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/OLTE/WINT.pdf}
+\caption{The traceroute from OLTE to WINT}
+\end{figure}
+\clearpage
+\subsubsection{OLTE - ZURI}
+\begin{lstlisting}
+traceroute -q 5 11.103.0.1
+/root/go_to.sh OLTE-host "bash -c \"traceroute -q 5 11.103.0.1\""
+traceroute to 11.103.0.1 (11.103.0.1), 30 hops max, 60 byte packets
+ 1  OLTE-host.group11 (11.101.0.2)  0.026 ms  0.006 ms  0.006 ms  0.006 ms  0.006 ms
+ 2  ZURI-olte.group11 (11.0.2.2)  0.021 ms  0.009 ms  0.009 ms  0.008 ms  0.009 ms
+ 3  HOST-zuri.group11 (11.103.0.1)  0.023 ms  0.011 ms  0.009 ms  0.010 ms  0.011 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/OLTE/ZURI.pdf}
+\caption{The traceroute from OLTE to ZURI}
+\end{figure}
+\clearpage
+\subsubsection{STGA - WINT}
+\begin{lstlisting}
+traceroute -q 5 11.102.0.1
+/root/go_to.sh STGA-host "bash -c \"traceroute -q 5 11.102.0.1\""
+traceroute to 11.102.0.1 (11.102.0.1), 30 hops max, 60 byte packets
+ 1  STGA-host.group11 (11.104.0.2)  0.035 ms  0.008 ms  0.006 ms  0.005 ms  0.006 ms
+ 2  WINT-stga.group11 (11.0.4.1)  0.026 ms  0.009 ms  0.008 ms  0.008 ms  0.008 ms
+ 3  HOST-wint.group11 (11.102.0.1)  0.021 ms  0.009 ms  0.009 ms  0.009 ms  0.008 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/STGA/WINT.pdf}
+\caption{The traceroute from STGA to WINT}
+\end{figure}
+\clearpage
+\subsubsection{STGA - ZURI}
+\begin{lstlisting}
+traceroute -q 5 11.103.0.1
+/root/go_to.sh STGA-host "bash -c \"traceroute -q 5 11.103.0.1\""
+traceroute to 11.103.0.1 (11.103.0.1), 30 hops max, 60 byte packets
+ 1  STGA-host.group11 (11.104.0.2)  0.021 ms  0.005 ms  0.004 ms  0.004 ms  0.004 ms
+ 2  WINT-stga.group11 (11.0.4.1)  0.013 ms  0.007 ms  0.007 ms  0.006 ms  0.007 ms
+ 3  ZURI-WINT.group11 (11.0.3.2)  0.019 ms  0.010 ms  0.009 ms  0.009 ms  0.009 ms
+ 4  HOST-zuri.group11 (11.103.0.1)  0.027 ms  0.026 ms  0.011 ms  0.010 ms  0.010 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/STGA/ZURI.pdf}
+\caption{The traceroute from STGA to ZURI}
+\end{figure}
+\clearpage
+\subsubsection{WINT - ZURI}
+\begin{lstlisting}
+traceroute -q 5 11.103.0.1
+/root/go_to.sh WINT-host "bash -c \"traceroute -q 5 11.103.0.1\""
+traceroute to 11.103.0.1 (11.103.0.1), 30 hops max, 60 byte packets
+ 1  WINT-host.group11 (11.102.0.2)  0.031 ms  0.006 ms  0.006 ms  0.006 ms  0.006 ms
+ 2  ZURI-WINT.group11 (11.0.3.2)  0.024 ms  0.010 ms  0.009 ms  0.009 ms  0.008 ms
+ 3  HOST-zuri.group11 (11.103.0.1)  0.022 ms  0.010 ms  0.010 ms  0.010 ms  0.010 ms
+\end{lstlisting}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{../Part_Dominik/ospf/stats/WINT/ZURI.pdf}
+\caption{The traceroute from WINT to ZURI}
+\end{figure}

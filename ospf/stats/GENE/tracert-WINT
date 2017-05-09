@@ -1,0 +1,8 @@
+traceroute -q 5 11.102.0.1
+/root/go_to.sh GENE-host "bash -c \"traceroute -q 5 11.102.0.1\""
+traceroute to 11.102.0.1 (11.102.0.1), 30 hops max, 60 byte packets
+ 1  GENE-host.group11 (11.108.0.2)  0.017 ms  0.005 ms  0.004 ms  0.004 ms  0.004 ms
+ 2  BERN-gene.group11 (11.0.12.1)  0.013 ms LUGA-gene.group11 (11.0.14.2)  0.008 ms LAUS-gene.group11 (11.0.13.1)  0.011 ms BERN-gene.group11 (11.0.12.1)  0.007 ms LUGA-gene.group11 (11.0.14.2)  0.006 ms
+ 3  OLTE-laus.group11 (11.0.7.1)  0.013 ms ZURI-bern.group11 (11.0.6.1)  0.017 ms STGA-luga.group11 (11.0.8.1)  0.012 ms OLTE-laus.group11 (11.0.7.1)  0.007 ms ZURI-bern.group11 (11.0.6.1)  0.008 ms
+ 4  WINT-zuri.group11 (11.0.3.1)  0.025 ms WINT-olte.group11 (11.0.1.2)  0.029 ms WINT-stga.group11 (11.0.4.1)  0.023 ms WINT-zuri.group11 (11.0.3.1)  0.012 ms WINT-olte.group11 (11.0.1.2)  0.011 ms
+ 5  HOST-wint.group11 (11.102.0.1)  0.023 ms  0.011 ms  0.012 ms  0.011 ms  0.010 ms

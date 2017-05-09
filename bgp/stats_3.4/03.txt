@@ -1,0 +1,9 @@
+traceroute to ZURI-host.group3 (3.103.0.2), 30 hops max, 60 byte packets
+ 1  ZURI-host.group11 (11.103.0.2)  0.021 ms
+ 2  WINT-zuri.group11 (11.0.3.1)  0.024 ms
+ 3  180.80.0.1 (180.80.0.1)  6.999 ms
+ 4  OLTE-wint.group1 (1.0.1.1)  6.246 ms
+ 5  LAUS-olte.group1 (1.0.7.2)  7.597 ms
+ 6  GENE-bern.group1 (1.0.12.2)  9.081 ms
+ 7  179.24.2.3 (179.24.2.3)  10.870 ms
+ 8  ZURI-host.group3 (3.103.0.2)  9.996 ms

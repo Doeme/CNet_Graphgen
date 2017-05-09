@@ -1,0 +1,7 @@
+traceroute -q 5 11.104.0.1
+traceroute to 11.104.0.1 (11.104.0.1), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.023 ms  0.006 ms  0.005 ms  0.005 ms  0.005 ms
+ 2  GENE-bern.group11 (11.0.12.2)  0.017 ms  0.008 ms  0.007 ms  0.007 ms  0.008 ms
+ 3  LUGA-gene.group11 (11.0.14.2)  0.019 ms  0.010 ms  0.010 ms  0.009 ms  0.010 ms
+ 4  STGA-luga.group11 (11.0.8.1)  0.025 ms  0.030 ms  0.014 ms  0.012 ms  0.012 ms
+ 5  HOST-stga.group11 (11.104.0.1)  0.024 ms  0.014 ms  0.014 ms  0.013 ms  0.014 ms

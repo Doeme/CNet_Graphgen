@@ -1,0 +1,6 @@
+traceroute -q 5 11.102.0.1
+traceroute to 11.102.0.1 (11.102.0.1), 30 hops max, 60 byte packets
+ 1  LUGA-host.group11 (11.109.0.2)  0.020 ms  0.006 ms  0.005 ms  0.004 ms  0.004 ms
+ 2  LUCE-luga.group11 (11.0.10.1)  0.016 ms GENE-luga.group11 (11.0.14.1)  0.015 ms STGA-luga.group11 (11.0.8.1)  0.011 ms LUCE-luga.group11 (11.0.10.1)  0.008 ms GENE-luga.group11 (11.0.14.1)  0.008 ms
+ 3  WINT-olte.group11 (11.0.1.2)  0.034 ms ZURI-bern.group11 (11.0.6.1)  0.023 ms BERN-gene.group11 (11.0.12.1)  0.015 ms WINT-olte.group11 (11.0.1.2)  0.020 ms ZURI-bern.group11 (11.0.6.1)  0.013 ms
+ 4  OLTE-zuri.group11 (11.0.2.1)  0.024 ms HOST-wint.group11 (11.102.0.1)  0.033 ms WINT-olte.group11 (11.0.1.2)  0.024 ms ZURI-bern.group11 (11.0.6.1)  0.017 ms HOST-wint.group11 (11.102.0.1)  0.012 ms

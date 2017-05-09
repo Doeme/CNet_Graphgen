@@ -1,0 +1,4 @@
+traceroute -q 3 GENE-host.group11
+traceroute to GENE-host.group11 (11.108.0.2), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.020 ms  0.005 ms  0.004 ms
+ 2  GENE-host.group11 (11.108.0.2)  0.017 ms  0.008 ms  0.006 ms

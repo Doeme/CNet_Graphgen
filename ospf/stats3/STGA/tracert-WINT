@@ -1,0 +1,5 @@
+traceroute -q 5 11.102.0.1
+traceroute to 11.102.0.1 (11.102.0.1), 30 hops max, 60 byte packets
+ 1  STGA-host.group11 (11.104.0.2)  0.030 ms  0.006 ms  0.006 ms  0.005 ms  0.005 ms
+ 2  WINT-stga.group11 (11.0.4.1)  0.021 ms  0.009 ms  0.007 ms  0.007 ms  0.007 ms
+ 3  HOST-wint.group11 (11.102.0.1)  0.022 ms  0.010 ms  0.010 ms  0.009 ms  0.011 ms

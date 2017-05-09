@@ -1,0 +1,8 @@
+traceroute -q 5 11.104.0.1
+/root/go_to.sh BERN-host "bash -c \"traceroute -q 5 11.104.0.1\""
+traceroute to 11.104.0.1 (11.104.0.1), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.029 ms  0.009 ms  0.007 ms  0.006 ms  0.005 ms
+ 2  GENE-bern.group11 (11.0.12.2)  0.018 ms LUCE-bern.group11 (11.0.9.1)  0.018 ms ZURI-bern.group11 (11.0.6.1)  0.016 ms GENE-bern.group11 (11.0.12.2)  0.010 ms LUCE-bern.group11 (11.0.9.1)  0.009 ms
+ 3  WINT-zuri.group11 (11.0.3.1)  0.029 ms LUGA-luce.group11 (11.0.10.2)  0.023 ms  0.012 ms WINT-zuri.group11 (11.0.3.1)  0.013 ms LUGA-luce.group11 (11.0.10.2)  0.012 ms
+ 4  STGA-luga.group11 (11.0.8.1)  0.033 ms  0.039 ms  0.021 ms  0.016 ms  0.017 ms
+ 5  HOST-stga.group11 (11.104.0.1)  0.032 ms  0.021 ms  0.017 ms  0.017 ms  0.017 ms

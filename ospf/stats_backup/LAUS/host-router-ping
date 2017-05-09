@@ -1,0 +1,10 @@
+ping -i 0.1 -c 4 11.107.0.2
+PING 11.107.0.2 (11.107.0.2) 56(84) bytes of data.
+64 bytes from 11.107.0.2: icmp_seq=1 ttl=64 time=0.016 ms
+64 bytes from 11.107.0.2: icmp_seq=2 ttl=64 time=0.036 ms
+64 bytes from 11.107.0.2: icmp_seq=3 ttl=64 time=0.034 ms
+64 bytes from 11.107.0.2: icmp_seq=4 ttl=64 time=0.036 ms
+
+--- 11.107.0.2 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 300ms
+rtt min/avg/max/mdev = 0.016/0.030/0.036/0.010 ms

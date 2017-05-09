@@ -1,0 +1,4 @@
+traceroute -q 3 LUCE-host.group11
+traceroute to LUCE-host.group11 (11.105.0.2), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.013 ms  0.004 ms  0.003 ms
+ 2  LUCE-host.group11 (11.105.0.2)  0.016 ms  0.005 ms  0.005 ms

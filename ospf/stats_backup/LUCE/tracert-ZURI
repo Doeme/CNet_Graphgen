@@ -1,0 +1,4 @@
+traceroute -q 3 ZURI-host.group11
+traceroute to ZURI-host.group11 (11.103.0.2), 30 hops max, 60 byte packets
+ 1  LUCE-host.group11 (11.105.0.2)  0.013 ms  0.005 ms  0.004 ms
+ 2  ZURI-host.group11 (11.103.0.2)  0.010 ms  0.006 ms  0.005 ms

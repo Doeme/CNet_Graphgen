@@ -1,0 +1,6 @@
+traceroute -q 5 11.102.0.1
+traceroute to 11.102.0.1 (11.102.0.1), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.019 ms  0.005 ms  0.004 ms  0.003 ms  0.004 ms
+ 2  ZURI-bern.group11 (11.0.6.1)  0.016 ms  0.007 ms  0.006 ms  0.007 ms  0.006 ms
+ 3  WINT-zuri.group11 (11.0.3.1)  0.021 ms OLTE-zuri.group11 (11.0.2.1)  0.016 ms WINT-zuri.group11 (11.0.3.1)  0.009 ms OLTE-zuri.group11 (11.0.2.1)  0.009 ms WINT-zuri.group11 (11.0.3.1)  0.008 ms
+ 4  WINT-zuri.group11 (11.0.3.1)  0.011 ms HOST-wint.group11 (11.102.0.1)  0.032 ms WINT-olte.group11 (11.0.1.2)  0.021 ms HOST-wint.group11 (11.102.0.1)  0.013 ms WINT-zuri.group11 (11.0.3.1)  0.011 ms

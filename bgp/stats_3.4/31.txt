@@ -1,0 +1,9 @@
+traceroute to ZURI-host.group31 (31.103.0.2), 30 hops max, 60 byte packets
+ 1  ZURI-host.group11 (11.103.0.2)  0.021 ms
+ 2  WINT-olte.group11 (11.0.1.2)  0.029 ms
+ 3  180.80.0.32 (180.80.0.32)  1.152 ms
+ 4  STGA-wint.group32 (32.0.4.2)  1.282 ms
+ 5  STGA-wint.group31 (31.0.4.2)  2.362 ms
+ 6  180.80.0.31 (180.80.0.31)  1.927 ms
+ 7  OLTE-wint.group31 (31.0.1.1)  1.252 ms
+ 8  ZURI-host.group31 (31.103.0.2)  2.451 ms

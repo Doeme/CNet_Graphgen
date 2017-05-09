@@ -1,0 +1,5 @@
+traceroute -q 3 WINT-host.group11
+traceroute to WINT-host.group11 (11.102.0.2), 30 hops max, 60 byte packets
+ 1  LUGA-host.group11 (11.109.0.2)  0.013 ms  0.004 ms  0.003 ms
+ 2  STGA-luga.group11 (11.0.8.1)  0.014 ms  0.005 ms  0.005 ms
+ 3  WINT-host.group11 (11.102.0.2)  0.015 ms  0.007 ms  0.006 ms

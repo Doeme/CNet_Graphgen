@@ -1,0 +1,17 @@
+traceroute to WINT-host.group5 (5.102.0.2), 30 hops max, 60 byte packets
+ 1  WINT-host.group11 (11.102.0.2)  0.014 ms
+ 2  OLTE-wint.group11 (11.0.1.1)  0.012 ms
+ 3  LAUS-olte.group11 (11.0.7.2)  0.013 ms
+ 4  LAUS-olte.group22 (22.0.7.2)  1.373 ms
+ 5  180.82.0.22 (180.82.0.22)  1.357 ms
+ 6  LAUS-olte.group15 (15.0.7.2)  7.344 ms
+ 7  OLTE-wint.group15 (15.0.1.1)  7.124 ms
+ 8  WINT-stga.group15 (15.0.4.1)  6.522 ms
+ 9  179.24.46.15 (179.24.46.15)  6.805 ms
+10  STGA-wint.group16 (16.0.4.2)  6.374 ms
+11  179.24.43.16 (179.24.43.16)  7.366 ms
+12  OLTE-wint.group16 (16.0.1.1)  7.568 ms
+13  LAUS-olte.group16 (16.0.7.2)  7.079 ms
+14  180.81.0.5 (180.81.0.5)  8.726 ms
+15  OLTE-laus.group5 (5.0.7.1)  12.210 ms
+16  WINT-host.group5 (5.102.0.2)  9.556 ms

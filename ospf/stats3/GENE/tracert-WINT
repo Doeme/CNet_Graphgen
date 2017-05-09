@@ -1,0 +1,7 @@
+traceroute -q 5 11.102.0.1
+traceroute to 11.102.0.1 (11.102.0.1), 30 hops max, 60 byte packets
+ 1  GENE-host.group11 (11.108.0.2)  0.018 ms  0.004 ms  0.004 ms  0.003 ms  0.003 ms
+ 2  LAUS-gene.group11 (11.0.13.1)  0.014 ms BERN-gene.group11 (11.0.12.1)  0.010 ms LAUS-gene.group11 (11.0.13.1)  0.005 ms BERN-gene.group11 (11.0.12.1)  0.006 ms LAUS-gene.group11 (11.0.13.1)  0.005 ms
+ 3  ZURI-bern.group11 (11.0.6.1)  0.015 ms OLTE-zuri.group11 (11.0.2.1)  0.016 ms ZURI-bern.group11 (11.0.6.1)  0.007 ms OLTE-zuri.group11 (11.0.2.1)  0.008 ms ZURI-bern.group11 (11.0.6.1)  0.007 ms
+ 4  WINT-zuri.group11 (11.0.3.1)  0.019 ms  0.038 ms  0.022 ms OLTE-zuri.group11 (11.0.2.1)  0.011 ms WINT-zuri.group11 (11.0.3.1)  0.008 ms
+ 5  HOST-wint.group11 (11.102.0.1)  0.016 ms  0.012 ms WINT-zuri.group11 (11.0.3.1)  0.010 ms HOST-wint.group11 (11.102.0.1)  0.011 ms  0.011 ms

@@ -1,0 +1,8 @@
+traceroute -q 5 11.104.0.1
+/root/go_to.sh LAUS-host "bash -c \"traceroute -q 5 11.104.0.1\""
+traceroute to 11.104.0.1 (11.104.0.1), 30 hops max, 60 byte packets
+ 1  LAUS-host.group11 (11.107.0.2)  0.020 ms  0.005 ms  0.004 ms  0.004 ms  0.004 ms
+ 2  GENE-laus.group11 (11.0.13.2)  0.014 ms OLTE-laus.group11 (11.0.7.1)  0.012 ms GENE-laus.group11 (11.0.13.2)  0.007 ms OLTE-laus.group11 (11.0.7.1)  0.024 ms GENE-laus.group11 (11.0.13.2)  0.007 ms
+ 3  WINT-olte.group11 (11.0.1.2)  0.021 ms LUGA-gene.group11 (11.0.14.2)  0.015 ms WINT-olte.group11 (11.0.1.2)  0.009 ms LUGA-gene.group11 (11.0.14.2)  0.009 ms WINT-olte.group11 (11.0.1.2)  0.009 ms
+ 4  STGA-luga.group11 (11.0.8.1)  0.024 ms  0.029 ms  0.013 ms  0.012 ms  0.010 ms
+ 5  HOST-stga.group11 (11.104.0.1)  0.023 ms  0.014 ms  0.013 ms  0.013 ms  0.013 ms

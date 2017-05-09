@@ -1,0 +1,6 @@
+traceroute -q 3 WINT-host.group11
+traceroute to WINT-host.group11 (11.102.0.2), 30 hops max, 60 byte packets
+ 1  GENE-host.group11 (11.108.0.2)  0.014 ms  0.004 ms  0.004 ms
+ 2  BERN-gene.group11 (11.0.12.1)  0.011 ms LUGA-gene.group11 (11.0.14.2)  0.010 ms LAUS-gene.group11 (11.0.13.1)  0.013 ms
+ 3  ZURI-bern.group11 (11.0.6.1)  0.015 ms STGA-luga.group11 (11.0.8.1)  0.015 ms OLTE-laus.group11 (11.0.7.1)  0.015 ms
+ 4  WINT-host.group11 (11.102.0.2)  0.017 ms  0.013 ms  0.012 ms

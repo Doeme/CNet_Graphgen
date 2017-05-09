@@ -1,0 +1,8 @@
+traceroute to WINT-host.group34 (34.102.0.2), 30 hops max, 60 byte packets
+ 1  WINT-host.group11 (11.102.0.2)  0.020 ms
+ 2  WINT-olte.group31 (31.0.1.2)  3.368 ms
+ 3  ZURI-olte.group31 (31.0.2.2)  12.578 ms
+ 4  LUCE-bern.group31 (31.0.9.1)  4.218 ms
+ 5  LUGA-gene.group31 (31.0.14.2)  5.612 ms
+ 6  179.24.21.2 (179.24.21.2)  5.756 ms
+ 7  WINT-host.group34 (34.102.0.2)  14.376 ms

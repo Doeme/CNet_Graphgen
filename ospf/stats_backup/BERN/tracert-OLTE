@@ -1,0 +1,5 @@
+traceroute -q 3 OLTE-host.group11
+traceroute to OLTE-host.group11 (11.101.0.2), 30 hops max, 60 byte packets
+ 1  BERN-host.group11 (11.106.0.2)  0.012 ms  0.003 ms  0.004 ms
+ 2  LAUS-bern.group11 (11.0.11.2)  0.013 ms ZURI-bern.group11 (11.0.6.1)  0.012 ms LAUS-bern.group11 (11.0.11.2)  0.006 ms
+ 3  OLTE-host.group11 (11.101.0.2)  0.016 ms  0.009 ms  0.007 ms

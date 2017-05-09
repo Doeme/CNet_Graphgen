@@ -1,0 +1,4 @@
+traceroute -q 3 LUGA-host.group11
+traceroute to LUGA-host.group11 (11.109.0.2), 30 hops max, 60 byte packets
+ 1  LUCE-host.group11 (11.105.0.2)  0.029 ms  0.013 ms  0.010 ms
+ 2  LUGA-host.group11 (11.109.0.2)  0.028 ms  0.014 ms  0.013 ms

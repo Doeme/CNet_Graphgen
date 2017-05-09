@@ -1,0 +1,12 @@
+traceroute to ZURI-host.group17 (17.103.0.2), 30 hops max, 60 byte packets
+ 1  ZURI-host.group11 (11.103.0.2)  0.024 ms
+ 2  BERN-zuri.group11 (11.0.6.2)  0.016 ms
+ 3  GENE-bern.group11 (11.0.12.2)  0.019 ms
+ 4  179.24.9.13 (179.24.9.13)  0.655 ms
+ 5  LAUS-olte.group13 (13.0.7.2)  0.824 ms
+ 6  GENE-laus.group13 (13.0.13.2)  0.866 ms
+ 7  179.24.39.15 (179.24.39.15)  2.117 ms
+ 8  LAUS-olte.group15 (15.0.7.2)  4.959 ms
+ 9  GENE-laus.group15 (15.0.13.2)  3.152 ms
+10  179.24.44.2 (179.24.44.2)  4.894 ms
+11  ZURI-host.group17 (17.103.0.2)  4.998 ms

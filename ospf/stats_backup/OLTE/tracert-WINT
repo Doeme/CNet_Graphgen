@@ -1,0 +1,4 @@
+traceroute -q 3 WINT-host.group11
+traceroute to WINT-host.group11 (11.102.0.2), 30 hops max, 60 byte packets
+ 1  OLTE-host.group11 (11.101.0.2)  0.014 ms  0.006 ms  0.004 ms
+ 2  WINT-host.group11 (11.102.0.2)  0.011 ms  0.006 ms  0.006 ms
